@@ -1,0 +1,20 @@
+{
+  "name": "paddle-keygen-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Express backend for Paddle webhooks and Keygen license validation.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
