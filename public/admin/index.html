@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Redirect</title>
+    <script>
+      const target =
+        window.localStorage.getItem("admin") === "true"
+          ? "/admin/dashboard.html"
+          : "/admin/login.html";
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
